@@ -2,7 +2,7 @@
 * @Author: banjiajia
 * @Date:   2019-03-07 13:57:11
 * @Last Modified by:   banjiajia
-* @Last Modified time: 2019-03-08 11:47:45
+* @Last Modified time: 2019-03-08 15:45:57
 */
 
 
@@ -162,10 +162,20 @@
 		color: #944e1f;
 	}
 }
-
+.ceremony1{
+	.prize-names{
+		width: 20%;
+	}
+	.prize-introduce{
+		width: 80%;
+	}
+}
 .income{
-	margin-top: 0.1rem;
-	.prize-name{
+	margin-top: .5rem;
+	background: url("../img/团长入围榜.png") no-repeat !important; 	
+	background-position: 0.45rem 0.4rem !important;
+	background-size: 84% !important;
+	.prize-name{		
 		.uesl{
 			margin-right: 18%;
 		}
