@@ -6,13 +6,15 @@
 */
 
 $(function(){
-	$(".second-li .second-button,.prize-bottom img,.activity img,\
-		.popup .popup-download,.popup .popup-close").mouseover(function (){  
-        var tsurl=$(this).attr("src");
+	$(".second-li .second-button1,.prize-bottom img,.activity img,\
+		.popup .popup-download,.popup .popup-close,.multiplayer img").mouseover(function (){      
+      var tsurl=$(this).attr("src").split("-")[0];
         this.tsurl=tsurl;
+        
         if(tsurl.includes("默认")){
         	var enter=tsurl.replace("默认","鼠标经过");        	
-        	$(this).attr("src",enter)
+          
+          $(this).attr("src",enter)
         }else{
         	this.tsurl="";
         }        

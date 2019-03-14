@@ -18,16 +18,16 @@
   font-size: 0.294rem;
   text-align: center;
   line-height: 1rem;
-  background: #B40B00;
+  background: #b40b00;
 }
 .nav li:nth-child(1) {
-  background: #EB3429;
+  background: #eb3429;
 }
 .nav li:nth-child(4) {
   width: 18%;
 }
 .nav li:hover {
-  background: #EB3429;
+  background: #eb3429;
 }
 
 .banneri {
@@ -36,7 +36,7 @@
 }
 
 .list-box {
-  background: #1D1122;
+  background: #1d1122;
   width: 100%;
   padding-top: 0.6rem;
   padding-bottom: 2.05rem;
@@ -61,14 +61,14 @@
 
 .booking {
   font-size: 0.14rem;
-  color: #8F644A;
+  color: #8f644a;
   margin-bottom: 0.08rem;
   padding-left: 0.2rem;
 }
 
 .booking-red {
   font-size: 0.2rem;
-  color: #EA3723;
+  color: #ea3723;
   font-weight: bold;
   margin-right: 0.02rem;
 }
@@ -90,7 +90,7 @@
 }
 .second-li .name {
   font-size: 0.2rem;
-  color: #A06A47;
+  color: #a06a47;
   display: inline-block;
   width: 24%;
   position: relative;
@@ -98,7 +98,7 @@
 }
 .second-li .nums {
   font-size: 0.2rem;
-  color: #A06A47;
+  color: #a06a47;
   display: inline-block;
   width: 34%;
   text-align: right;
@@ -107,14 +107,21 @@
   top: -0.14rem;
 }
 .second-li .nums b {
-  color: #E3261E;
+  color: #e3261e;
   font-size: 0.28rem;
 }
 .second-li .second-button {
+  display: inline-block;
   width: 24.075%;
   height: 0.4rem;
   position: relative;
   top: 0.1rem;
+}
+.second-li .second-button1 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .ceremony {
@@ -256,12 +263,13 @@
   padding: 0.26rem 0 0.2rem;
   white-space: pre-line;
   font-size: 0.16rem;
-  color: #B17148;
+  color: #b17148;
   line-height: 0.28rem;
 }
 .activity img {
   display: block;
   margin: auto;
+  width: 40%;
 }
 
 .popup-backgrund {
@@ -305,7 +313,7 @@
 }
 .popup .popup-upper {
   font-size: 0.23rem;
-  color: #E93925;
+  color: #e93925;
   font-weight: bold;
   margin-bottom: 0.23rem;
   text-align: center;
@@ -337,7 +345,7 @@
   color: #fff;
   text-align: center;
   line-height: 0.2rem;
-  background: #EF3428;
+  background: #ef3428;
   position: absolute;
   left: 50%;
   margin-left: -23%;
@@ -441,9 +449,9 @@
 .bottom-all {
   width: 100%;
   height: 1.4rem;
-  padding: 0.1rem 0;
+  padding: 0.02rem 0;
   position: fixed;
-  background: #1D1122;
+  background: #1d1122;
   bottom: 0;
   left: 0;
   z-index: 100;
@@ -456,8 +464,6 @@
 .bottom-all .name {
   height: 0.48rem;
   margin-bottom: 0.02rem;
-  background: url(../img/s色块.png);
-  background-size: 100% 100%;
   display: flex;
   padding: 0 0.4rem 0 0.4rem;
   justify-content: space-between;
@@ -475,8 +481,10 @@
   height: 0.9rem;
   display: flex;
   justify-content: space-between;
+  margin-top: 0.02rem;
 }
 .bottom-all .left {
+  display: inline;
   width: 35%;
   height: 100%;
   background: url(../img/s色块1（默认）.png) no-repeat;
@@ -493,6 +501,7 @@
   background-size: 100% 100%;
 }
 .bottom-all .right {
+  display: inline;
   width: 64.7%;
   height: 100%;
   background: url(../img/s色块2（默认）.png) no-repeat;
@@ -508,27 +517,47 @@
   background: url("../img/s色块2（鼠标经过）.png") no-repeat;
   background-size: 100% 100%;
 }
-
-.bottom-speed {
-  display: none;
+.bottom-all .bottom-hiden,
+.bottom-all marquee {
+  height: 0.48rem;
+  overflow: hidden;
+  background: url(../img/s色块.png);
+  background-size: 100% 100%;
 }
-
-.bottom-explain {
-  display: none;
-}
-
-.bottom-open {
-  display: none;
-}
-
-.bottom-finish .right {
+.bottom-all .bottom-finish {
   width: 100%;
   background: url("../img/s色块3（默认）.png") no-repeat;
   background-size: 100% 100%;
 }
-.bottom-finish .right:hover {
+.bottom-all .bottom-finish1 {
+  display: none;
+}
+.bottom-all .bottom-finish:hover {
   background: url("../img/s色块3（鼠标经过）.png") no-repeat;
   background-size: 100% 100%;
+}
+
+.second-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  position: relative;
+  top: -2px;
+  margin: auto;
+}
+
+.second-bottom .up {
+  color: #a27046;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 0.2rem;
+}
+
+.second-bottom .up:hover {
+  color: #e3261e;
 }
 
 /*# sourceMappingURL=index.css.map */
