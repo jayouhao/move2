@@ -1,0 +1,369 @@
+.hao-sufficienta {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .leftnava {
+    width: 262px;
+    background: #fff;
+  }
+  .contenta {
+    width: 954px;
+    background: #fff;
+  }
+  .portraita {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: default;
+  }
+  .portraita-img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .numbera {
+    font-size: 16px;
+  }
+  .usera {
+    width: fit-content;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 9px;
+    border: solid 1px #e6e6e6;
+    color: #666;
+    margin: auto;
+    font-size: 12px;
+    padding: 0 6px;
+  }
+  .usera1 {
+    color: #ec5e5e;
+    font-weight: bold;
+  }
+  .usera-img {
+    width: 14px;
+    position: relative;
+    top: -2px;
+  }
+  .dateas {
+    margin: 12px 0 24px 0;
+    font-size: 12px;
+    color: #868686;
+    span {
+      display: inline-block;
+      width: 38px;
+      height: 24px;
+      border: solid 1px #55b99d;
+      color: #55b99d;
+      font-size: 13px;
+      text-align: center;
+      line-height: 24px;
+      cursor: pointer;
+      margin-left: 13px;
+      border-radius: 2px;
+    }
+    span:hover {
+      color: #fff;
+      background: #55b99d;
+    }
+  }
+  .leftnava-ul {
+    background: #fff;
+  }
+  .leftnava-li {
+    display: block;
+    width: auto;
+    height: 56px;
+    line-height: 56px;
+    padding-left: 40px;
+    font-family: PingFangSC-Light;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    border-left: 3px solid rgba(0, 0, 0, 0);
+  }
+  .leftnava-li1 {
+    background: #e4fff7;
+    border-color: #55b99d;
+    color: #55b99d;
+  }
+  .leftnava-li:hover {
+    background: #e4fff7;
+    color: #55b99d;
+  }
+}
+.contenta-top {
+  width: 954px;
+  height: 160px;
+  background: url("../img/pic01@3x.png") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  cursor: default;
+  .topa-name {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .topa-cen {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+  }
+  .topa-servicea {
+    position: absolute;
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    background: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    right: 22px;
+    top: 16px;
+    color: #484848;
+  }
+  .topa-servicea:hover {
+    background: #f1f1f1;
+  }
+  .topa-qq {
+    width: 14px;
+    height: 15px;
+    margin-left: 10px;
+    margin-right: 4px;
+    position: relative;
+    top: -1px;
+  }
+}
+
+.onlinea {
+  padding-top: 35px;
+  .onlinea-name {
+    font-size: 19px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+  }
+  .onlinea-ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10px;
+  }
+  .onlinea-li {
+    width: 221px;
+    height: 250px;
+    border: solid 1px #eeeeee;
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+  }
+  .onlinea-lij:hover {
+    border-color: #55b99d;
+  }
+  .onlinea-title {
+    width: 56px;
+    height: 16px;
+    background: red;
+    color: #fff;
+    position: absolute;
+    transform: rotate(-39deg);
+    top: 4px;
+    left: -14px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 13px;
+  }
+  .onlinea-skya {
+    font-size: 20px;
+    width: 100%;
+    height: 68px;
+    text-align: center;
+    line-height: 68px;
+    border-bottom: solid 1px #eeeeee;
+  }
+  .onlinea-numskya {
+    position: absolute;
+    padding: 0 4px;
+    font-size: 12px;
+    color: #666;
+    background: #eaeaea;
+    height: 20px;
+    line-height: 20px;
+    top: 25px;
+    margin-left: 4px;
+    border-radius: 6px;
+  }
+  .onlinea-elementa {
+    color: #55b99d;
+    margin: 40px 0 34px 0;
+    text-align: center;
+    font-size: 18px;
+    span {
+      font-size: 42px;
+    }
+  }
+  .onlinea-yhuana {
+    font-size: 12px;
+    color: #969696;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    width: 100%;
+    span {
+      text-decoration: line-through;
+    }
+  }
+  .onlinea-hinta {
+    font-size: 12px;
+    color: #848484;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .onlinea-abutton {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 32px;
+    border: solid 1px #55b99d;
+    color: #55b99d;
+    font-size: 13px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 2px;
+  }
+  .onlinea-abutton:hover {
+    background: #55b99d;
+    color: #fff;
+  }
+  .onlinea-li-hua .onlinea-title {
+    background: #55b99d;
+  }
+  .onlinea-li-year {
+    border: solid 2px #ec4848;
+    .onlinea-abutton {
+      background: #55b99d;
+      color: #fff;
+    }
+    .onlinea-abutton:hover {
+      background: #49a088;
+      border-color: #49a088;
+    }
+  }
+}
+
+.yarda {
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  .yarda-name {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+  .yarda-bor {
+    width: 500px;
+    height: 40px;
+    border-radius: 4px 0px 0px 4px;
+    border: solid 1px #55b99d;
+    display: flex;
+  }
+  .yarda-input {
+    padding-left: 15px;
+    width: 388px;
+    height: 79%;
+    border: 0;
+    background: none;
+  }
+  .yarda-button {
+    display: inline-block;
+    width: 92px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #55b99d;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .yarda-centena {
+    white-space: pre-line;
+    color: #8e8e8e;
+    font-size: 14px;
+    a {
+      color: #55b99d;
+    }
+  }
+}
+.hides {
+  display: none !important;
+}
+.hao-searcha5 {
+  width: 20px;
+  height: 21px;
+}
+.navbar .nav li a {
+  text-align: center;
+  height: 20px;
+}
+.hao-customas {
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  span {
+    display: inline-block;
+    width: 80px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    top: 6px;
+  }
+  a{
+    position: relative;
+    top: -5px;
+  }
+}
+.hao-customas:hover .hao-customas-list{
+  display: block;
+}
+.hao-customas:hover a{
+  background-color: unset !important;
+}
+.hao-customas-list{
+  display: none;
+  position: absolute;
+  width: 160px;
+  height: 291px;
+  background-color: #fff !important;
+  box-shadow: 2px 2px 8px #dedede;
+  margin-left: 6px;
+  p{
+    padding-left: 20px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    cursor: default;
+  }
+  a{
+    display: block;
+    padding: 0 !important; 
+    width: auto !important;
+    font-size: 14px;
+    padding-left: 20px !important;
+    height: 44px !important;
+    text-decoration: none;
+    line-height: 44px;
+    text-align: left !important;
+    color: black !important;
+  }
+  a:hover{
+    color: #55b99d !important;
+    background: #f5fbf9 !important;
+  }
+  .a1{
+    color: #55b99d !important;
+  }
+}
