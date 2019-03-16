@@ -98,6 +98,8 @@
   width: 954px;
   position: relative;
   cursor: default;
+  background: none;
+  height: 200px;
 }
 .contenta-top .topa-name {
   font-family: "PingFangSC-Thin";
