@@ -12,10 +12,11 @@
   background: #fff;
 }
 .hao-sufficienta .portraita {
-  margin-top: 50px;
+  padding-top: 50px;
   text-align: center;
   margin-bottom: 20px;
   cursor: default;
+  background: -webkit-linear-gradient(90deg, #fff, #eef9f6);
 }
 .hao-sufficienta .portraita-img {
   width: 96px;
@@ -84,12 +85,12 @@
   border-left: 3px solid rgba(0, 0, 0, 0);
 }
 .hao-sufficienta .leftnava-li1 {
-  background: #e4fff7;
+  background: #55b99d0d;
   border-color: #55b99d;
   color: #55b99d;
 }
 .hao-sufficienta .leftnava-li:hover {
-  background: #e4fff7;
+  background: #55b99d0d;
   color: #55b99d;
 }
 
@@ -102,17 +103,19 @@
   cursor: default;
 }
 .contenta-top .topa-name {
-  font-size: 22px;
+  font-size: 28px;
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 35px;
+  height: 28px;
 }
 .contenta-top .topa-cen {
   font-size: 14px;
   color: #fff;
   text-align: center;
   line-height: 22px;
+  height: 42px;
 }
 .contenta-top .topa-servicea {
   position: absolute;
@@ -122,12 +125,12 @@
   background: #fff;
   font-size: 12px;
   cursor: pointer;
-  right: 22px;
-  top: 16px;
-  color: #484848;
+  right: 20px;
+  top: 20px;
+  color: #666;
 }
 .contenta-top .topa-servicea:hover {
-  background: #f1f1f1;
+  color: #333;
 }
 .contenta-top .topa-qq {
   width: 14px;
@@ -149,11 +152,12 @@
 .onlinea .onlinea-ul {
   display: flex;
   justify-content: space-evenly;
-  padding-left: 10px;
+  width: 98%;
+  margin: auto;
 }
 .onlinea .onlinea-li {
-  width: 221px;
-  height: 250px;
+  width: 218px;
+  height: 248px;
   border: solid 1px #eeeeee;
   position: relative;
   overflow: hidden;
@@ -178,9 +182,9 @@
 .onlinea .onlinea-skya {
   font-size: 20px;
   width: 100%;
-  height: 68px;
+  height: 65px;
   text-align: center;
-  line-height: 68px;
+  line-height: 65px;
   border-bottom: solid 1px #eeeeee;
 }
 .onlinea .onlinea-numskya {
@@ -193,7 +197,7 @@
   line-height: 20px;
   top: 25px;
   margin-left: 4px;
-  border-radius: 6px;
+  border-radius: 6px 6px 6px 0px;
 }
 .onlinea .onlinea-elementa {
   color: #55b99d;
@@ -224,13 +228,13 @@
 .onlinea .onlinea-abutton {
   display: block;
   margin: auto;
-  width: 100px;
-  height: 32px;
+  width: 98px;
+  height: 30px;
   border: solid 1px #55b99d;
   color: #55b99d;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
-  line-height: 32px;
+  line-height: 30px;
   border-radius: 2px;
 }
 .onlinea .onlinea-abutton:hover {
@@ -255,11 +259,12 @@
 .yarda {
   margin-top: 40px;
   padding-left: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 38px;
+  cursor: default;
 }
 .yarda .yarda-name {
-  font-size: 19px;
-  margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 26px;
 }
 .yarda .yarda-bor {
   width: 500px;
@@ -267,6 +272,7 @@
   border-radius: 4px 0px 0px 4px;
   border: solid 1px #55b99d;
   display: flex;
+  margin-bottom: 28px;
 }
 .yarda .yarda-input {
   padding-left: 15px;
@@ -286,10 +292,14 @@
   font-size: 15px;
   text-decoration: none;
 }
+.yarda .yarda-button:hover {
+  background: #49a088;
+}
 .yarda .yarda-centena {
   white-space: pre-line;
   color: #8e8e8e;
   font-size: 14px;
+  line-height: 21px;
 }
 .yarda .yarda-centena a {
   color: #55b99d;
@@ -310,10 +320,12 @@
 }
 
 .hao-customas img {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   margin-right: 10px;
+  padding: 1px;
+  background: #fff;
 }
 .hao-customas span {
   display: inline-block;
@@ -372,5 +384,15 @@
 }
 .hao-customas-list .a1 {
   color: #55b99d !important;
+}
+
+.hao-hengs {
+  width: 1px;
+  height: 10px;
+  border-right: solid 1px #ffffff;
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  margin-top: -5px;
 }
 
