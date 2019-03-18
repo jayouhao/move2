@@ -554,5 +554,8 @@
   background-color: unset !important;
   color: #88eedd !important;
 }
-
+.hao-navsa a:focus {
+  background-color: unset !important;
+  color: #fff !important;
+}
 
