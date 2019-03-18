@@ -67,7 +67,6 @@
   line-height: 24px;
   cursor: pointer;
   margin-left: 13px;
-  border-radius: 2px;
 }
 .hao-sufficienta .dateas span:hover {
   color: #fff;
@@ -75,6 +74,7 @@
 }
 .hao-sufficienta .leftnava-ul {
   background: #fff;
+  padding-bottom: 10px;
 }
 .hao-sufficienta .leftnava-li {
   display: block;
@@ -416,4 +416,5 @@
   background-color: unset !important;
   color: #fff !important;
 }
+
 

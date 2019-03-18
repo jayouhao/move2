@@ -68,7 +68,6 @@
   line-height: 24px;
   cursor: pointer;
   margin-left: 13px;
-  border-radius: 2px;
 }
 .hao-sufficienta .dateas span:hover {
   color: #fff;
@@ -76,6 +75,7 @@
 }
 .hao-sufficienta .leftnava-ul {
   background: #fff;
+  padding-bottom: 10px;
 }
 .hao-sufficienta .leftnava-li {
   display: block;
@@ -374,7 +374,6 @@
   border: 0;
   outline: none;
   font-size: 18px;
-  border-radius: 2px;
 }
 
 .qian-zuhao:hover {
@@ -482,26 +481,26 @@
   background: rgba(0, 0, 0, 0.4);
 }
 .rushsucc .rushsucc-box {
-  width: 420px;
-  height: 439px;
+  width: 380px;
+  height: 454px;
   background-color: #fff;
-  box-shadow: 0px 0px 3px 0px #eee;
   position: absolute;
   top: 50%;
   left: 50%;
   margin-left: -210px;
-  margin-top: -219.5px;
+  margin-top: -227px;
   padding: 0 20px;
   cursor: default;
   border-radius: 3px;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.08);
 }
 .rushsucc .gus2 {
   display: block;
   position: absolute;
-  width: 13px;
-  height: 13px;
-  top: 15px;
-  right: 25px;
+  width: 12px;
+  height: 12px;
+  top: 22px;
+  right: 30px;
   cursor: pointer;
   background: url(../../img/icon01@3x.png) no-repeat;
   background-size: 100%;
@@ -512,13 +511,14 @@
 }
 .rushsucc .rushsucc-img {
   display: block;
-  margin: 60px auto 30px;
+  margin: 60px auto 42px;
   width: 237px;
 }
 .rushsucc .rushsucc-sc {
   font-size: 28px;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  height: 27px;
 }
 .rushsucc .rushsucc-xian {
   font-size: 14px;
@@ -536,8 +536,11 @@
   height: 40px;
   background-color: #55b99d;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   border: 0;
+}
+.rushsucc .rushsucc-zuhao:hover {
+  background: #49a088;
 }
 
 .hao-hengs {
@@ -558,4 +561,5 @@
   background-color: unset !important;
   color: #fff !important;
 }
+
 
