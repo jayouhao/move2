@@ -5,6 +5,7 @@
   .leftnava {
     width: 262px;
     background: #fff;
+    height: fit-content;
   }
   .contenta {
     width: 954px;
@@ -25,6 +26,7 @@
   }
   .numbera {
     font-size: 16px;
+    margin-bottom: 14px;
   }
   .usera {
     width: fit-content;
@@ -36,10 +38,12 @@
     margin: auto;
     font-size: 12px;
     padding: 0 6px;
+    margin-bottom: 22px;
   }
   .usera1 {
     color: #ec5e5e;
     font-weight: bold;
+    margin-bottom: 16px;
   }
   .usera-img {
     width: 14px;
@@ -47,7 +51,7 @@
     top: -2px;
   }
   .dateas {
-    margin: 12px 0 24px 0;
+    margin-bottom: 32px;
     font-size: 12px;
     color: #868686;
     span {
@@ -232,8 +236,7 @@
     color: #55b99d;
     font-size: 14px;
     text-align: center;
-    line-height: 30px;
-    border-radius: 2px;
+    line-height: 30px;    
   }
   .onlinea-abutton:hover {
     background: #55b99d;
@@ -258,7 +261,7 @@
 .yarda {
   margin-top: 40px;
   padding-left: 20px;
-  padding-bottom: 38px;
+  padding-bottom: 48px;
   cursor: default;
   .yarda-name {
     font-size: 24px;
@@ -298,9 +301,13 @@
     color: #8e8e8e;
     font-size: 14px;
     line-height: 21px;
+    margin-bottom: 0;
     a {
       color: #55b99d;
     }
+  }
+  .yarda-centena1{
+    margin-bottom: 20px;
   }
 }
 .hides {
@@ -388,4 +395,11 @@
   right: -1px;
   top: 50%;
   margin-top: -5px;
+}
+
+.hao-navsa{
+  a:hover{
+    background-color: unset !important;
+    color: rgb(136, 238, 221) !important;
+  }
 }
